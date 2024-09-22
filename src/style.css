@@ -1,0 +1,26 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading{
+    margin: 30px;
+}
+.board-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square{
+    cursor: pointer;
+    border-radius: 15px;
+    margin: 5px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
